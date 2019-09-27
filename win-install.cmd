@@ -48,7 +48,7 @@ unlocker.exe
 
 echo.
 echo Getting VMware Tools...
-python gettools.py
+gettools.exe
 xcopy /F /Y .\tools\darwin*.* "%InstallPath%"
 
 echo.
